@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>d443bee7-951a-440e-8f30-28f23d1ae9dd</ProjectGuid>
+    <ProjectGuid>18f066cd-c327-4219-9a9e-7eed0a478010</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApplication1.py</StartupFile>
+    <StartupFile>PythonApplication3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonApplication1</Name>
-    <RootNamespace>PythonApplication1</RootNamespace>
-    <InterpreterId>Global|PythonCore|3.7-32</InterpreterId>
+    <Name>PythonApplication3</Name>
+    <RootNamespace>PythonApplication3</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,10 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PythonApplication1.py" />
-  </ItemGroup>
-  <ItemGroup>
-    <InterpreterReference Include="Global|PythonCore|3.7-32" />
+    <Compile Include="PythonApplication3.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
